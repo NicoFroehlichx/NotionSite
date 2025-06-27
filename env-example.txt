@@ -1,0 +1,9 @@
+# Cloudflare Turnstile CAPTCHA Configuration
+# Site Key (für Frontend-Integration):
+VITE_TURNSTILE_SITE_KEY=0x4AAAAABiVvmyGjdHpD_SA
+
+# Secret Key (für server-seitige Verifikation - NICHT im Frontend verwenden):
+# 0x4AAAAABiVvpI1dlsF_EEmfhUd4iE6v0g
+
+# Für die Entwicklung können Sie auch den Test-Key verwenden:
+# VITE_TURNSTILE_SITE_KEY=1x00000000000000000000AA 
