@@ -16,7 +16,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <PasswordProtection>
-        <BrowserRouter basename="/ai-hackathon-site">
+        <BrowserRouter basename="/NotionSite">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/partnership" element={<Partnership />} />
